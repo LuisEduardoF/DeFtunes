@@ -1,0 +1,50 @@
+glue_api_users_extract_job = "de-c4w4a1-api-users-extract-job"
+glue_rds_extract_job = "de-c4w4a1-rds-extract-job"
+glue_role_arn = "arn:aws:iam::324058134501:role/de-c4w4a1-glue-role"
+glue_sessions_users_extract_job = "de-c4w4a1-api-sessions-extract-job"
+project = "de-c4w4a1"
+
+coder@cc6097d3c5c3:~/project/terraform$ aws glue start-job-run --job-name de-c4w4a1-api-users-extract-job | jq -r '.JobRunId'
+jr_9ae366b13af39137826c0e3fb6d6b1a3c9264abb7558ecdd89c2a7d3b9a3c270
+
+coder@cc6097d3c5c3:~/project/terraform$ aws glue start-job-run --job-name de-c4w4a1-api-sessions-extract-job | jq -r '.JobRunId'
+jr_3392895f234667595933a3f62a0e46ad5d438bc66d414e18ee5f044aa8784623
+
+coder@cc6097d3c5c3:~/project/terraform$ aws glue start-job-run --job-name de-c4w4a1-rds-extract-job | jq -r '.JobRunId'
+jr_437ffea22f8e93b14eb4cc1805dbb85b3f8b9cd7f8304d9f3d8e8ec97a791f84
+
+glue_api_users_extract_job = "de-c4w4a1-api-users-extract-job"
+glue_catalog_db = <sensitive>
+glue_json_transformation_job = "de-c4w4a1-json-transform-job"
+glue_rds_extract_job = "de-c4w4a1-rds-extract-job"
+glue_role_arn = "arn:aws:iam::324058134501:role/de-c4w4a1-glue-role"
+glue_sessions_users_extract_job = "de-c4w4a1-api-sessions-extract-job"
+glue_songs_transformation_job = "de-c4w4a1-songs-transform-job"
+project = "de-c4w4a1"
+
+coder@cc6097d3c5c3:~/project/terraform$ aws glue start-job-run --job-name de-c4w4a1-json-transform-job | jq -r '.JobRunId'
+aws glue start-job-run --job-name de-c4w4a1-songs-transform-job | jq -r '.JobRunId'
+jr_46df256913833b77567fa13aaea1b15b9e5b3f41301498e16dd5d5ea748320b8
+jr_058cd3c08b4b3ecdd115c0f8bafd0d3fd696dce587e9feadc0efaecf11883c8c
+
+glue_api_users_extract_job = "de-c4w4a1-api-users-extract-job"
+glue_catalog_db = <sensitive>
+glue_json_transformation_job = "de-c4w4a1-json-transform-job"
+glue_rds_extract_job = "de-c4w4a1-rds-extract-job"
+glue_role_arn = "arn:aws:iam::324058134501:role/de-c4w4a1-glue-role"
+glue_sessions_users_extract_job = "de-c4w4a1-api-sessions-extract-job"
+glue_songs_transformation_job = "de-c4w4a1-songs-transform-job"
+project = "de-c4w4a1"
+serving_schema = "deftunes_serving"
+transform_schema = "deftunes_transform"
+
+glue_api_users_extract_job = "de-c4w4a1-api-users-extract-job"
+glue_catalog_db = <sensitive>
+glue_json_transformation_job = "de-c4w4a1-json-transform-job"
+glue_rds_extract_job = "de-c4w4a1-rds-extract-job"
+glue_role_arn = "arn:aws:iam::324058134501:role/de-c4w4a1-glue-role"
+glue_sessions_users_extract_job = "de-c4w4a1-api-sessions-extract-job"
+glue_songs_transformation_job = "de-c4w4a1-songs-transform-job"
+project = "de-c4w4a1"
+serving_schema = "deftunes_serving"
+transform_schema = "deftunes_transform"
