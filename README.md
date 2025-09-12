@@ -1,6 +1,8 @@
 # Deftunes - Data Engineering Capstone Project
 
-![Logo](logo.png)
+<p align="center">
+  <img src="logo.png" />
+</p>
 
 ## Overview
 DeFtunes is a music industry company offering a subscription-based app for streaming songs. Recently, they expanded their services to include digital song purchases. This project implements a comprehensive data pipeline to extract purchase data from their API and operational database, process and model this data, and deliver it for analysis and insights.
