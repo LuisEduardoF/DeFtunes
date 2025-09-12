@@ -1,0 +1,12 @@
+dbt_modeling:
+  outputs:
+    serving:
+      dbname: dev
+      host: de-c4w4a2-redshift-cluster.crdijjynjtiu.us-east-1.redshift.amazonaws.com
+      password: Defaultuserpwrd1234+
+      port: 5439
+      schema: deftunes_serving
+      threads: 1
+      type: redshift
+      user: defaultuser
+  target: serving
