@@ -7,8 +7,7 @@
 ## Overview
 DeFtunes is a music industry company offering a subscription-based app for streaming songs. Recently, they expanded their services to include digital song purchases. This project implements a comprehensive data pipeline to extract purchase data from their API and operational database, process and model this data, and deliver it for analysis and insights.
 
-The project is designed as a complete data engineering solution that demonstrates modern data engineering practices including data extraction, transformation, loading, quality validation, orchestration, and visualization. It's built using a cloud-native approach on AWS, with infrastructure as code principles for reproducibility and maintainability. Capstone Projects for [DeepLearning.AI Data Engineering]([https://github.com/user/repo/blob/branch/other_file.md](https://www.coursera.org/account/accomplishments/specialization/R4FIB4YN3HZ3))
-
+The project is designed as a complete data engineering solution that demonstrates modern data engineering practices including data extraction, transformation, loading, quality validation, orchestration, and visualization. It's built using a cloud-native approach on AWS, with infrastructure as code principles for reproducibility and maintainability. Capstone Projects for [DeepLearning.AI Data Engineering](https://www.coursera.org/account/accomplishments/specialization/R4FIB4YN3HZ3)
 
 ## Project Architecture
 
